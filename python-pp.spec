@@ -1,7 +1,7 @@
 %define module	pp
 %define name	python-%{module}
 %define version	1.5.6
-%define release	%mkrel 1
+%define release	%mkrel 2
 
 Summary:	Parallel Python
 Name:		%{name}
