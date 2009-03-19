@@ -1,7 +1,7 @@
 %define module	pp
 %define name	python-%{module}
-%define version	1.5.6
-%define release	%mkrel 2
+%define version	1.5.7
+%define release	%mkrel 1
 
 Summary:	Parallel Python
 Name:		%{name}
@@ -27,8 +27,8 @@ easy to install, and integrates well with other Python software.
 %__rm -rf %{buildroot}
 %__python setup.py install --root=%{buildroot}
 %__mv %{buildroot}%{_bindir}/ppserver.py %{buildroot}%{_bindir}/ppserver
-%__lzma -z ppserver.1
-%__install -D -m 644 ppserver.1.lzma %{buildroot}%{_mandir}/man1/ppserver.1.lzma
+%__lzma -z doc/ppserver.1
+%__install -D -m 644 doc/ppserver.1.lzma %{buildroot}%{_mandir}/man1/ppserver.1.lzma
 
 %clean
 %__rm -rf %{buildroot}
