@@ -39,3 +39,31 @@ PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot}
 %_bindir/*
 %py_puresitedir/*
 %_mandir/man1/*
+
+
+%changelog
+* Wed Feb 02 2011 Lev Givon <lev@mandriva.org> 1.6.1-1mdv2011.0
++ Revision: 635333
+- Update to 1.6.1.
+
+* Sat Nov 06 2010 Funda Wang <fwang@mandriva.org> 1.6.0-2mdv2011.0
++ Revision: 594077
+- rebuild
+
+* Mon Jul 12 2010 Lev Givon <lev@mandriva.org> 1.6.0-1mdv2011.0
++ Revision: 551268
+- Update to 1.6.0.
+
+* Thu Mar 19 2009 Lev Givon <lev@mandriva.org> 1.5.7-1mdv2009.1
++ Revision: 358156
+- Update to 1.5.7.
+
+* Sat Jan 03 2009 Funda Wang <fwang@mandriva.org> 1.5.6-2mdv2009.1
++ Revision: 323926
+- rebuild
+
+* Wed Nov 05 2008 Lev Givon <lev@mandriva.org> 1.5.6-1mdv2009.1
++ Revision: 300130
+- import python-pp
+
+
