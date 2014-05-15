@@ -1,2 +1,4 @@
+removed_sources:
+  pp-1.6.1.tar.bz2: 2d44fc5e7b8ceb08a4a0c84443014a9bf352ce05
 sources:
-  "pp-1.6.1.tar.bz2": 2d44fc5e7b8ceb08a4a0c84443014a9bf352ce05
+  pp-1.6.4.tar.bz2: 0f59c4fcb07770efbb96f70242d2f12f07cf4f01
