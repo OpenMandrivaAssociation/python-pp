@@ -4,7 +4,7 @@ Summary:	Parallel Python
 
 Name:		python-%{module}
 Version:	1.6.4
-Release:	1
+Release:	2
 Source0:	http://www.parallelpython.com/downloads/pp/%{module}-%{version}.tar.bz2
 License:	BSD-like
 Group:		Development/Python
