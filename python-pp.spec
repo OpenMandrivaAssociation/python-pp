@@ -8,7 +8,7 @@ Release:	2
 Source0:	http://www.parallelpython.com/downloads/pp/%{module}-%{version}.tar.bz2
 License:	BSD-like
 Group:		Development/Python
-Url:		http://www.parallelpython.com/
+Url:		https://www.parallelpython.com/
 BuildArch:	noarch
 BuildRequires:  python-devel
 
